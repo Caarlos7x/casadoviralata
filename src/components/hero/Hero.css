@@ -1,0 +1,72 @@
+.hero-row {
+  display: flex;
+}
+
+.hero-col1, .hero-col2 {
+  flex: 1;
+  height: 800px; /* Altura fixa para ambas as colunas */
+}
+
+.hero-col1 {
+}
+
+.hero-col1 h1 {
+  color: #283B40;
+  text-align: left;
+  margin-top: 226px;
+}
+
+.hero-col1 p {
+  color: #283B40;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.hero-col2 {
+  /* Estilos adicionais para hero-col2 */
+}
+
+.dog-hero {
+  background-image: url('../../assets/dog-hero.svg');
+  background-repeat: no-repeat;
+  height: 558px;
+  width: 800px;
+  position: relative;
+  z-index: 2;
+
+  transform: translate(-260px, -450px);
+}
+
+.bullet-hero {
+  background-color: #85cf3a;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 50px;
+  z-index: 1;
+}
+
+.line-hero {
+  background-color: #85cf3a;
+  height: 4px;
+  width: 100%;
+  position: relative; /* Pode ser 'absolute' ou 'relative' dependendo do layout */
+  z-index: 1; /* Opcional, dependendo da sobreposição */
+
+  transform: translateY(-168px);
+}
+
+
+
+/* Nova linha para separar a seção hero */
+.hero-separator {
+  background-color: #000; /* Cor da linha */
+  height: 2px; /* Altura da linha */
+  width: 100%; /* Largura total */
+  margin: 20px 0; /* Margem superior e inferior */
+}
+
+.btn-adotar-hero {
+  margin-top: 40px;
+}
