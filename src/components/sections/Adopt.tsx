@@ -3,15 +3,15 @@ import './Adopt.css';
 
 function Adopt() {
   const imagePaths = [
-    '/src/assets/images/cat-01.png',
-    '/src/assets/images/dog-01.png',
-    '/src/assets/images/cat-02.png',
-    '/src/assets/images/dog-02.png',
-    '/src/assets/images/cat-03.png',
-    '/src/assets/images/dog-03.png',
-    '/src/assets/images/dog-04.jpg',
-    '/src/assets/images/dog-05.jpg',
-    '/src/assets/images/cat-04.jpg',
+    '/images/cat-01.png',
+    '/images/dog-01.png',
+    '/images/cat-02.png',
+    '/images/dog-02.png',
+    '/images/cat-03.png',
+    '/images/dog-03.png',
+    '/images/dog-04.jpg',
+    '/images/dog-05.jpg',
+    '/images/cat-04.jpg',
   ];
 
 
