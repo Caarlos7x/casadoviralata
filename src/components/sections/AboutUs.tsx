@@ -4,21 +4,21 @@ import './AboutUs.css'
 
 function AboutUs() {
   const imagePaths = [
-    '/src/assets/images/adopt-1.png',
-    '/src/assets/images/adopt-2.png',
-    '/src/assets/images/adopt-3.png',
-    '/src/assets/images/adopt-4.png',
-    '/src/assets/images/adopt-5.png',
-    '/src/assets/images/adopt-6.png',
-    '/src/assets/images/adopt-7.png',
-    '/src/assets/images/adopt-8.png',
-    '/src/assets/images/adopt-9.png',
-    '/src/assets/images/adopt-10.png',
-    '/src/assets/images/adopt-11.png',
-    '/src/assets/images/adopt-12.png',
-    '/src/assets/images/adopt-13.png',
-    '/src/assets/images/adopt-14.png',
-    '/src/assets/images/adopt-15.png',
+    '/images/adopt-1.png',
+    '/images/adopt-2.png',
+    '/images/adopt-3.png',
+    '/images/adopt-4.png',
+    '/images/adopt-5.png',
+    '/images/adopt-6.png',
+    '/images/adopt-7.png',
+    '/images/adopt-8.png',
+    '/images/adopt-9.png',
+    '/images/adopt-10.png',
+    '/images/adopt-11.png',
+    '/images/adopt-12.png',
+    '/images/adopt-13.png',
+    '/images/adopt-14.png',
+    '/images/adopt-15.png',
   ];
 
   return (
