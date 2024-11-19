@@ -1,6 +1,6 @@
 import React from 'react';
 import './ButtonStyles.css';
-import { IonButton, IonSpinner } from '@ionic/react';
+import { IonSpinner } from '@ionic/react';
 
 interface CustomButtonProps {
   type: 'primary' | 'secondary' | 'success' | 'danger' | 'link' | 'adopt';
