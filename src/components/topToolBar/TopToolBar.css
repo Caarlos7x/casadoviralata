@@ -21,6 +21,7 @@
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
+    cursor: pointer;
 
     &:hover {
       color: #14191a;
@@ -31,12 +32,12 @@
 
 .menu-link {
   color: #283B40;
-  text-decoration: none; /* Remove o sublinhado */
+  text-decoration: none;
   font-size: 16px;
   padding: 10px;
   
 }
 
 .menu-link:hover {
-  background-color: #f0f0f0; /* Efeito de hover opcional */
+  background-color: #f0f0f0;
 }

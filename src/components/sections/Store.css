@@ -13,7 +13,9 @@
   overflow: hidden;
   transition: transform 0.2s;
   width: 300px;
+  height: 200px;
   cursor: pointer;
+  padding: 10px;
 }
 
 .card:hover {
@@ -47,4 +49,5 @@
 .store-patreon h2,
 .store-store h2 {
   color: #283B40;
+  font-size: 36px;
 }

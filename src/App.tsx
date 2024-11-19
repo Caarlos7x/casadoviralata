@@ -10,7 +10,9 @@ function App() {
     <>
       <TopToolBar />
       <Index />
-      <Footer />
+      <div id="contact">
+        <Footer />
+      </div>
     </>
   );
 }

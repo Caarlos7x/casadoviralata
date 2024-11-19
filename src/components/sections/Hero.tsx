@@ -5,6 +5,12 @@ import CustomButton from '../common/Buttons';
 
 
 function Hero() {
+  const handleScrollToAdopt = () => {
+    const adoptSection = document.getElementById('adopt');
+    if (adoptSection) {
+      adoptSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
   return (
     <>
       <IonRow className="hero-row">
@@ -15,9 +21,7 @@ function Hero() {
           <div className="btn-adotar-hero">
             <CustomButton
               type="adopt"
-              onClick={() => {
-                console.log('Botão clicado');
-              }}
+              onClick={handleScrollToAdopt}
             >
               Adote um amiguinho
             </CustomButton>
