@@ -29,9 +29,12 @@ Este projeto é uma interface responsiva e moderna para auxiliar instituições 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **HTML5**: Estrutura da página.
-- **CSS3**: Estilização, utilizando `rem` como unidade base para responsividade.
-- **JavaScript**: Funcionalidades dinâmicas e interações.
+- **HTML5**: Estrutura semântica e moderna para construção de páginas web, utilizando as tags mais recentes e melhores práticas para acessibilidade.
+- **CSS3**: Estilos responsivos e modernos para layout, incluindo Flexbox, Grid e animações.
+- **JavaScript**: Linguagem de programação para interação dinâmica com a página, manipulando DOM e eventos.
+- **ReactJS**: Biblioteca JavaScript para construção de interfaces de usuário interativas, baseadas em componentes reutilizáveis.
+- **Ionic Framework**: Framework para desenvolvimento de aplicações móveis híbridas com HTML, CSS e JavaScript.
+- **TypeScript**: Superset do JavaScript que adiciona tipagem estática e recursos avançados, melhorando a manutenção do código.
 
 ## 🌟 Destaques do Design
 
