@@ -1,12 +1,16 @@
 
-import './App.css';
-import Home from './pages/homepage/Home';
+import './styles/global.css';
+import Footer from './components/layout/footer';
+import TopToolBar from './components/topToolBar/TopToolBar';
+import Index from './pages/homepage/Index';
 
 function App() {
 
   return (
     <>
-      <Home />
+      <TopToolBar />
+      <Index />
+      <Footer />
     </>
   );
 }

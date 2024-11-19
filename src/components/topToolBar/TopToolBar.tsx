@@ -5,9 +5,9 @@ import "./TopToolBar.css";
 function TopToolBar() {
   const menuTopItems = [
     { label: "Home", link: "/" },
-    { label: "About", link: "/about" },
-    { label: "Contact", link: "/contact" },
-    { label: "Adopt", link: "/adopt" },
+    { label: "Sobre", link: "/about" },
+    { label: "Adote", link: "/adopt" },
+    { label: "Contato", link: "/contact" },
   ];
 
   return (

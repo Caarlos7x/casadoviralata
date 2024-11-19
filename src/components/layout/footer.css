@@ -1,0 +1,60 @@
+.full-width-footer {
+  background-color: #283B40 !important;
+  color: white !important;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  background-color: #283B40 !important;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-column h3 {
+  margin: 20px;
+  font-size: 1.2rem;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #85cf3a;
+}
+
+.footer-column img {
+  width: 100px;
+  height: 100px;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.img-footer {
+  background-image: url(/src/assets/images/casaDoViraLata-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 20px auto 20px auto;
+}

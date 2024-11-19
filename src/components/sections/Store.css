@@ -1,0 +1,50 @@
+.store-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 16px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+  width: 300px;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+  padding: 16px;
+  color: #283B40;
+}
+
+.card-title {
+  font-size: 1.25em;
+  margin: 0 0 8px;
+}
+
+.card-description {
+  display: flex;
+  justify-content: center;
+  font-size: 1em;
+  color: #666;
+  margin: 0;
+}
+
+.store-patreon h2,
+.store-store h2 {
+  color: #283B40;
+}

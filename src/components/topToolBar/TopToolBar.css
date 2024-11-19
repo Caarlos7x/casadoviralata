@@ -15,6 +15,18 @@
   display: flex;
   gap: 10px;
   margin-top: 100px;
+
+  a {
+    color: #283B40;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+
+    &:hover {
+      color: #14191a;
+      font-weight: 600;
+    }
+  }
 }
 
 .menu-link {
@@ -22,6 +34,7 @@
   text-decoration: none; /* Remove o sublinhado */
   font-size: 16px;
   padding: 10px;
+  
 }
 
 .menu-link:hover {
