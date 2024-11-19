@@ -1,50 +1,72 @@
-# React + TypeScript + Vite
+# Projeto de Interface de Adoção de Pets 🐾
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma interface responsiva e moderna para auxiliar instituições de adoção de animais a apresentarem seus pets disponíveis para adoção. A aplicação foi desenvolvida utilizando **HTML**, **CSS** e **JavaScript**, com design centrado na experiência do usuário.
 
-Currently, two official plugins are available:
+## 💡 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Página inicial atraente:** Apresenta um vídeo promocional e informações sobre a causa da adoção.
+- **Cards dinâmicos:** Exibição de pets disponíveis com informações básicas.
+- **Toolbar responsiva:** Inclui links de navegação para páginas secundárias.
+- **Design adaptável:** Interface totalmente responsiva, otimizada para dispositivos móveis, tablets e desktops.
 
-## Expanding the ESLint configuration
+## 📂 Estrutura do Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+/src
+│── /assets
+│    ├── /svg
+│    │    └── dog-hero.svg
+│    └── /images
+│── /css
+│    └── styles.css
+│── /js
+│    └── script.js
+└── index.html
 
-- Configure the top-level `parserOptions` property like this:
+- **`/assets`:** Contém imagens e ícones utilizados no projeto.
+- **`/css`:** Arquivos de estilo para definir o design da interface.
+- **`/js`:** Scripts para funcionalidades interativas.
+- **`index.html`:** Página principal do projeto.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tecnologias Utilizadas
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **HTML5**: Estrutura da página.
+- **CSS3**: Estilização, utilizando `rem` como unidade base para responsividade.
+- **JavaScript**: Funcionalidades dinâmicas e interações.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🌟 Destaques do Design
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Responsividade:**
+   - Unidades relativas (`rem`) foram usadas para garantir uma experiência consistente em dispositivos de diferentes tamanhos.
+   - Utilização de **media queries** para ajustes específicos em telas menores.
+
+2. **Componentes estilizados:**
+   - **Cards de pets:** Design limpo e organizado.
+   - **Botão "Scroll to Top":** Facilita a navegação do usuário.
+
+3. **Foco na acessibilidade:**
+   - Cores contrastantes.
+   - Navegação simplificada.
+
+## 🚀 Como Executar o Projeto
+
+1. Clone o repositório:
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
+
+
+## 📋 Próximos Passos
+  - Adicionar integração com backend para carregar dados reais de pets disponíveis.
+  - Implementar formulário de contato e adoção.
+  - Melhorar animações e interatividade com bibliotecas como GSAP ou Framer Motion.
+
+
+
+## Desenvolvimento
+
+Carlos Augusto by [devside.com.br](https://devside.com.br) - Todos os direitos reservados
+
+
+
+## 📜 Licença
+
+Este projeto é de código aberto e pode ser utilizado conforme necessário. Contribuições são bem-vindas!
